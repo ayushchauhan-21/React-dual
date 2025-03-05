@@ -1,4 +1,4 @@
-# 🔹 **Context API in React** – Deep Explanation  
+# 🔹 **Context API in React**
 
 ## **1️⃣ Context API Kya Hota Hai?**
 Context API ek **built-in state management system** hai jo React me **data ko globally share** karne ke liye use hota hai.  
