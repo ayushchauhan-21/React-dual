@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+/** yaha ye niche ki line vary inportant hai isko nahi likha to output sahi se nahi milega 
+isiliye new vite me hame tailwind.config.js file ki jagah ye line yaha hi import karva deni hai.
+
+
+iske baare me or padhana ho to iss link par padh skte ho,
+https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually
+
+and very most inportant baat ki app.jsx me se app.css hata deni hai.
+*/
+@custom-variant dark (&:where(.dark, .dark *));
