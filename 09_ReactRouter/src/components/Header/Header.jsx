@@ -41,6 +41,10 @@ function Header() {
                                 /**yaha upper hamne className ke andar callBack isliye add kiya hai kyuki ham classes ko dynamically add and remove kar ske.
                                  * yaha par isActive ek property hai joki hame batata hai ki iss navlink ke andar ki link active hai ki nahi ye batata hai isActive. same iske hi jese ek hota hai isDarkMode joki batata hai ki darkmode hai ki nahi. kyuki iska use karke ham expression ke andar conditions laga skte hai.
                                  * `className` ke andar **callback function nahi likhte**, lekin **JavaScript expressions (ternary operator, template literals, logical operators, etc.)** likh sakte hain jo dynamically classes add/remove kar sakte hain.  
+                                 * 
+                                 * 
+                                 * yaha niche ham jis isDarkMode ki baat kar rahe hai vo ek state hai joki hame hi create karna padega.
+                                 * and Yaha isActive tum khud define nahi kar rahe ho, ye React Router khud deta hai as a function argument.
                                  * ---
                                  * 
                                  * ### **1️⃣ Static Classes (Simple)**
